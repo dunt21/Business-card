@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  margin: 20px;
+  /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+  font-family: "Times New Roman", Times, serif;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.avatar {
+  width: 180px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-top: 1.2rem;
+}
+
+.card {
+  width: 450px;
+  height: 15rem;
+  margin: 100px auto;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #d4a373;
+  color: #333333;
+  border-bottom: 6px solid #cd7f32;
+  cursor: pointer;
+  border-radius: 10px;
+
+  /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.text {
+  line-height: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333333;
+}
+
+.business-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.border-blue {
+  border: 1px dotted blue;
+}
+
+@media (max-width: 599px) {
+  .card {
+    width: 22rem;
+    height: 180px;
+  }
+
+  .text {
+    line-height: 1.3rem;
+    margin: 20px 0 0 0;
+  }
+
+  h3 {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 140px;
+  }
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
