@@ -70,7 +70,7 @@ a {
 
   .text {
     line-height: 1.3rem;
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0;
   }
 
   h3 {
@@ -88,8 +88,8 @@ a {
   }
 
   .avatar {
-    width: 130px;
-    height: 140px;
+    width: 125px;
+    height: 155px;
   }
 }
 /*
